@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprende a programar desde cero</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar flex">
+        <a href="#" class="navbar__logo">Andres Curso</a>
+
+        <ul class="navbar__list" id="navMenu">
+            <li class="navbar__list-item"><a href="#Inicio">Inicio</a></li>
+            <li class="navbar__list-item"><a href="#Beneficios">Beneficios</a></li>
+            <li class="navbar__list-item"><a href="#como-funciona">¿Cómo funciona?</a></li>
+            <li class="navbar__list-item"><a href="#Programa">Programa</a></li>
+            <li class="navbar__list-item"><a href="#Precios">Precios</a></li>
+        </ul>
+
+        <button class="navbar__hamburger" id="hamburger" aria-label="Abrir menú">
+            <span class="navbar__hamburger-bar"></span>
+            <span class="navbar__hamburger-bar"></span>
+            <span class="navbar__hamburger-bar"></span>
+        </button>
+    </nav>
+
+<main>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="Inicio">
+        <div class="hero__container flex">
+            <div class="hero__content flex">
+                <p class="hero__eyebrow">Curso de Programación</p>
+                <h1 class="hero__title">
+                    Aprendé a programar <br>
+                    <span class="hero__title-accent">desde cero</span>
+                </h1>
+                <p class="hero__subtitle">
+                    Habilidades reales, proyectos prácticos y explicaciones simples
+                    sin experiencia previa necesaria.
+                </p>
+                <div class="hero__buttons flex">
+                    <a href="#Precios" class="btn btn--primary">Empezar ahora</a>
+                    <a href="#Programa" class="btn btn--outline">Ver el programa</a>
+                </div>
+            </div>
+
+            <div class="hero__cards">
+                <div class="hero__card">
+                    <span class="hero__card-icon" aria-hidden="true">🎯</span>
+                    <h3 class="hero__card-title">Aprendizaje paso a paso</h3>
+                    <p class="hero__card-text">
+                        Dominá las habilidades más demandadas con proyectos reales
+                        y explicaciones diseñadas para principiantes.
+                    </p>
+                </div>
+
+                <div class="hero__card">
+                    <span class="hero__card-icon" aria-hidden="true">🚀</span>
+                    <h3 class="hero__card-title">De cero a profesional</h3>
+                    <p class="hero__card-text">
+                        Empezá sin experiencia y avanzá hasta crear apps web,
+                        automatizaciones y proyectos profesionales.
+                    </p>
+                </div>
+
+                <div class="hero__card">
+                    <span class="hero__card-icon" aria-hidden="true">💡</span>
+                    <h3 class="hero__card-title">Soporte en cada paso</h3>
+                    <p class="hero__card-text">
+                        Accedé a una comunidad activa y a mentores que te ayudan
+                        cuando lo necesitás.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section >
+
+    <!-- BENEFICIOS SECTION -->
+
+    <section class="beneficios" id="Beneficios">
+    
+        <div class="beneficios__title-container">
+            <h2 class="beneficios__title">¿Por qué elegir <span class="hero__title-accent"> este</span> curso?</h2>
+        </div>
+        <div class="beneficios__cards-container">
+            <div class="beneficios__card">
+                <h3 class="beneficios__card-title"> Aprendé haciendo</h3><span class="icon">🛠️</span>
+                <p class="beneficios__card-text">
+                    Cada módulo incluye proyectos reales que podés mostrar en tu portfolio desde el primer día. Nada de teoría sin práctica.
+                </p>
+            </div>
+            
+            <div class="beneficios__card">
+                <h3 class="beneficios__card-title">A tu ritmo </h3><span class="icon">⏱️</span>
+                <p class="beneficios__card-text">
+                    Accedé al contenido cuando quieras, desde cualquier dispositivo. Sin horarios fijos ni fechas límite.
+                </p>
+            </div>
+
+            <div class="beneficios__card">
+                <h3 class="beneficios__card-title"> Siempre actualizado</h3><span class="icon">📡</span>
+                <p class="beneficios__card-text">
+                    El material se actualiza constantemente para que aprendas las tecnologías que realmente se usan hoy en el mercado laboral.
+                </p>
+            </div>
+            
+            <div class="beneficios__card">
+                <h3 class="beneficios__card-title"> Comunidad incluida</h3>
+                <span class="icon">👥</span>
+                <p class="beneficios__card-text">
+                    Entrás a un grupo privado donde podés hacer preguntas, compartir tus avances y conectar con otros estudiantes.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- COMO FUNCIONA SECTION -->
+
+
+    <section class="como-funciona" id="como-funciona">
+            <h3 class="como-funciona__title">Así funcionamos</h3>
+            <div class="como-funciona__pasos-container">
+                <div class="como-funciona__paso">
+                    <span class="paso__icon"> ①</span>
+                    <h4 class="como-funciona__paso-title"> Registrate
+                    </h4>
+                    <p class="como-funciona__paso-text">Creá tu cuenta en minutos y accedé inmediatamente a todo el contenido del curso.</p>
+                </div>
+
+                <div class="como-funciona__paso">
+                    <span class="paso__icon"> ②</span>
+                    <h4 class="como-funciona__paso-title">
+                        Seguí el programa
+                    </h4>
+                    <p class="como-funciona__paso-text">Las lecciones están organizadas de menor a mayor dificultad. Vas avanzando paso a paso, sin saltear partes importantes.</p>
+                </div>
+
+                <div class="como-funciona__paso">
+                    <span class="paso__icon"> ③</span>
+                    <h4 class="como-funciona__paso-title">
+                        Practicá con proyectos
+                    </h4>
+                    <p class="como-funciona__paso-text">Al final de cada módulo, aplicás lo aprendido en un proyecto real. Así reforzás el conocimiento y armás tu portfolio.</p>
+                </div>
+
+                <div class="como-funciona__paso">
+                    <span class="paso__icon"> ④</span>
+                    <h4 class="como-funciona__paso-title">
+                        Conseguí tu certificado
+                    </h4>
+                    <p class="como-funciona__paso-text">Al completar el curso, recibís un certificado que podés compartir en LinkedIn o incluir en tu CV.</p>
+                </div>
+            </div>
+        
+    </section>
+
+    <section class="stats">
+        <p class="stats__eyebrow">Resultados reales</p>
+        <h2 class="stats__title">Números que hablan</h2>
+        <div class="stats__grid">
+            <div class="stats__card">
+                <span class="stats__icon">👩‍💻</span>
+                <p class="stats__number">240+</p>
+                <p class="stats__label">Alumnos activos</p>
+            </div>
+            <div class="stats__card">
+                <span class="stats__icon">⭐</span>
+                <p class="stats__number">4.9</p>
+                <p class="stats__label">Calificación promedio</p>
+            </div>
+            <div class="stats__card">
+                <span class="stats__icon">🏆</span>
+                <p class="stats__number">92%</p>
+                <p class="stats__label">Tasa de completitud</p>
+            </div>
+            <div class="stats__card">
+                <span class="stats__icon">💼</span>
+            <p class="stats__number">3x</p>
+            <p class="stats__label">Más chances de empleo</p>
+            </div>
+        </div>
+    </section>
+
+<!-- PROGRAMA SECTION -->
+
+    <section class="programa" id="Programa">
+        <div class="programa__container">
+            <div class="programa__title-container">
+                <p class="programa__eyebrow">PROGRAMA DEL CURSO</p>
+                <h3 class="programa__title">¿Qué vas a aprender?</h3>
+            </div>
+            <div class="programa__modulos-container">
+                <div class="programa__modulo">
+                    <div class="svg-container purple-background">
+                        <svg width="24" height="24" viewBox="0 0 16 16" fill="none">
+                            <rect x="2" y="2" width="5" height="5" rx="1" fill="#534AB7"/>
+                            <rect x="9" y="2" width="5" height="5" rx="1" fill="#534AB7"/>
+                            <rect x="2" y="9" width="5" height="5" rx="1" fill="#534AB7"/>
+                            <rect x="9" y="9" width="5" height="5" rx="1" fill="#AFA9EC"/>
+                        </svg>
+                    </div>
+                    <h4 class="programa__modulo-title"> Fundamentos de<br> programación</h4>
+                    <p class="programa__modulo-text">Variables, tipos de datos, condicionales, bucles y funciones. La base de todo.</p>
+                </div>
+                
+                <div class="programa__modulo">
+                    <div class="svg-container green-background" >
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0F6E56" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="16 18 22 12 16 6"/>
+                            <polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </div>
+                    <h4 class="programa__modulo-title">HTML & CSS</h4>
+                    <p class="programa__modulo-text">Creá páginas web desde cero. Aprendé a estructurar contenido y a darle estilo con diseño responsive</p>
+                </div>
+                
+                <div class="programa__modulo">
+                    <div class="svg-container orange-background" >
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#BA7517" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <path d="M9 9l3 3-3 3M13 15h3"/>
+                        </svg>
+                    </div>
+                    <h4 class="programa__modulo-title">JavaScript</h4>
+                    <p class="programa__modulo-text">Dale vida a tus páginas. Eventos, manipulación del DOM, formularios y lógica del lado del cliente</p>
+                </div>
+                
+                <div class="programa__modulo">
+                    <div class="svg-container coral-background">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#993C1D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                            <path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/>
+                            <path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3"/>
+                        </svg>
+                    </div>
+                    <h4 class="programa__modulo-title">Backend básico</h4>
+                    <p class="programa__modulo-text">Introducción a servidores, APIs y bases de datos. Entendé cómo funciona la web por dentro</p>
+                </div>
+                
+                <div class="programa__modulo">
+                    <div class="svg-container blue-background">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#185FA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                        </svg>
+                    </div>
+                    <h4 class="programa__modulo-title">Proyecto final</h4>
+                    <p class="programa__modulo-text">Construís una aplicación web completa, funcional y lista para mostrar en tu portfolio.</p>
+                </div>
+            </div>
+    </section>
+
+
+    <section  class="precios" id="Precios">
+        <div class="precios__container">
+            <p class="precios__eyebrow">Precios</p>
+        <h2 class="precios__title">Elegí tu plan</h2>
+        <p class="precios__subtitle">Invertí una vez, aprendé para siempre.</p>
+        <div class="precios__grid">
+            <div class="precios__card">
+                <p class="plan__nombre">Esencial</p>
+                <p class="plan__descripcion">Para empezar sin compromiso</p>
+                <div class="plan__precio">
+                    <span class="plan__moneda">$</span>
+                    <span class="plan__numero">29</span>
+                    <span class="plan__periodo">/ pago único</span>
+                </div>
+                <hr class="plan__divisor">
+                <ul class="plan__features">
+                    <li class="plan__feature">Acceso a todos los modulos</li>
+                    <li class="plan__feature">Proyectos prácticos</li>
+                    <li class="plan__feature">Actualizaciones del contenido</li>
+                    <li class="plan__feature plan__feature--no">Comunidad privada</li>
+                    <li class="plan__feature plan__feature--no">Soporte con mentores</li>
+                    <li class="plan__feature plan__feature--no">Certificado de finalizacion</li>
+                </ul>
+                <a href="#" class="btn-plan btn-plan--outline">Empezar con Esencial</a>
+            </div>
+
+            <div class="precios__card precios__card--destacado">
+                <span class="precios__badge">⭐ Más elegido</span>
+                <p class="plan__nombre">Completo</p>
+                <p class="plan__descripcion">La experiencia completa</p>
+                <div class="plan__precio">
+                    <span class="plan__moneda">$</span>
+                    <span class="plan__numero">59</span>
+                    <span class="plan__periodo">/ pago único</span>
+                </div>
+                <hr class="plan__divisor">
+                <ul class="plan__features">
+                    <li class="plan__feature">Acceso a todos los módulos</li>
+                    <li class="plan__feature">Proyectos prácticos</li>
+                    <li class="plan__feature">Actualizaciones del contenido</li>
+                    <li class="plan__feature">Comunidad privada</li>
+                    <li class="plan__feature">Soporte con mentores</li>
+                    <li class="plan__feature">Certificado de finalización</li>
+                </ul>
+                <a href="#" class="btn-plan btn-plan--solid">Empezar con Completo</a>
+            </div>
+        </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer__top">
+
+        <div class="footer__brand">
+            <p class="footer__brand-logo">Andres Curso</p>
+            <a href="mailto:hola@andrescurso.com" class="footer__brand-mail">hola@andrescurso.com</a>
+        </div>
+
+        <div class="footer__nav">
+            <p class="footer__nav-title">Navegación</p>
+            <ul class="footer__nav-list">
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Beneficios">Beneficios</a></li>
+                <li><a href="#como-funciona">¿Cómo funciona?</a></li>
+                <li><a href="#Programa">Programa</a></li>
+                <li><a href="#Precios">Precios</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__social">
+            <p class="footer__social-title">Redes</p>
+            <div class="footer__social-links">
+
+                <a href="#" class="footer__social-link">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.31.975.975 1.247 2.242 1.31 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.31 3.608-.975.975-2.242 1.247-3.608 1.31-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.334-3.608-1.31-.975-.975-1.247-2.242-1.31-3.608C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.31-3.608.975-.975 2.242-1.247 3.608-1.31C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.014 7.052.072 5.197.157 3.355.673 2.014 2.014.673 3.355.157 5.197.072 7.052.014 8.332 0 8.741 0 12c0 3.259.014 3.668.072 4.948.085 1.855.601 3.697 1.942 5.038 1.341 1.341 3.183 1.857 5.038 1.942C8.332 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 1.855-.085 3.697-.601 5.038-1.942 1.341-1.341 1.857-3.183 1.942-5.038.058-1.28.072-1.689.072-4.948 0-3.259-.014-3.668-.072-4.948-.085-1.855-.601-3.697-1.942-5.038C20.645.673 18.803.157 16.948.072 15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+                    Instagram
+                </a>
+
+                <a href="#" class="footer__social-link">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    YouTube
+                </a>
+
+                <a href="#" class="footer__social-link">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    Twitter / X
+                </a>
+
+                <a href="#" class="footer__social-link">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/></svg>
+                    TikTok
+                </a>
+
+                <a href="#" class="footer__social-link">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                    GitHub
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <p>© 2026 Andres Curso · Todos los derechos reservados</p>
+    </div>
+
+</footer>
+    <script src="codigo.js"></script>
+
+
+</body>
+</html>
